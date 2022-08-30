@@ -1,0 +1,15 @@
+- formiranje niza buttons sa čvorovima na svako polje igrice
+
+- postavljanje bombi po mapi nasumično
+- postavljanje vrijednosti za svako polje
+- dodavanje addEventListener() za svako polje i provjera polja u funkciji
+
+PROVJERA POLJA U FUNKCIJI:
+-vrijednost polja moze biti: bomba ili broj ili prazno (nula)
+1)bomba: Igrica se zavrsava i ispisuje odgovarajucu poruku
+2)broj: Otkriva se izabrano polje sa svojim brojem
+3)prazno(nula)*: Otkriva se izabrano polje sa okolnim poljima sve dok se ne dođe do polja sa brojem
+
+-algoritmi:
+*   otkrivanje indeksa odabranog elementa
+    rekurzivno se poziva fukcija koja ispituje polje za okolna polja
