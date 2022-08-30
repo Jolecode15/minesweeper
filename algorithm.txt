@@ -1,0 +1,10 @@
+- formiranje matrice buttons sa čvorovima na svako polje mape
+
+- postavljanje bombi po mapi nasumično
+- postavljanje brojne vrijednosti za svako sigurno polje
+- dodavanje addEventListener() za svako polje i provjera polja u funkciji; onemogućava se prikaz menija pregledača (browser contextmenu) prilikom pritiska na desni klik miša i dodaje se mogućnost postavljanja/uklanjanja zastavice na odabrano polje desnom klikom miša
+
+PROVJERA POLJA U FUNKCIJI:
+-vrijednost polja moze biti: bomba ili broj ili prazno (nula)
+1)bomba: Prikazuje se slika bombe u odabranom polju, ispisuje se odgovarajuća poruka u konzoli i igrica se nastavlja
+2)broj ILI prazno(nula): Otkriva se izabrano polje sa svojim brojem i igrica se nastavlja

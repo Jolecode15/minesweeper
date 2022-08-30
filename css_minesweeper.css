@@ -1,0 +1,23 @@
+body{
+    margin:0;
+    padding:0;
+    background: linear-gradient(to right,#00AAFF,#00FF6C);
+}
+.game-grid{
+    margin:auto;
+    padding:0;
+    display: grid;
+    min-height: 100vh;
+    justify-content: center;
+    align-content: center;
+    grid-template-columns: repeat(5,65px);
+    grid-template-rows: repeat(5,65px);
+}
+.game-grid button {
+    cursor: pointer;
+    border: 1px solid black;
+    outline: none;
+}
+.game-grid button:hover {
+    background-color: rgba(255,255,255, .9);
+}
